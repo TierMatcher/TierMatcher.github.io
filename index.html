@@ -58,6 +58,51 @@
         </div>
     </section>
 
+    <!-- Tier List Creation Section -->
+    <section id="tierlist-creation">
+        <div class="container">
+            <h2>Create Your Tier List</h2>
+            <form action="/create-tierlist" method="POST">
+                <label for="tierlist-title">Tier List Title</label>
+                <input type="text" id="tierlist-title" name="tierlist-title" required>
+
+                <label for="tierlist-items">Add Items (comma-separated)</label>
+                <input type="text" id="tierlist-items" name="tierlist-items" required>
+
+                <label for="tierlist-categories">Categories (e.g., S, A, B, C)</label>
+                <input type="text" id="tierlist-categories" name="tierlist-categories" required>
+
+                <button type="submit" class="cta-button">Create Tier List</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Tier List Showcase Section -->
+    <section id="tierlist-showcase">
+        <div class="container">
+            <h2>Explore Tier Lists</h2>
+            <p>Browse tier lists created by other gamers and find matches based on shared rankings!</p>
+            <div class="tierlist-gallery">
+                <div class="tierlist">
+                    <h3>Example Tier List: "Top RPGs of All Time"</h3>
+                    <ul>
+                        <li><strong>S:</strong> Witcher 3, Final Fantasy VII</li>
+                        <li><strong>A:</strong> Skyrim, Mass Effect</li>
+                        <li><strong>B:</strong> Dragon Age, Fallout 4</li>
+                    </ul>
+                </div>
+                <div class="tierlist">
+                    <h3>Example Tier List: "Best FPS Games"</h3>
+                    <ul>
+                        <li><strong>S:</strong> Doom Eternal, Half-Life 2</li>
+                        <li><strong>A:</strong> Call of Duty 4, Overwatch</li>
+                        <li><strong>B:</strong> Battlefield 1, Valorant</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Sign Up Section -->
     <section id="signup">
         <div class="container">
